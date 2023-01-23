@@ -23,6 +23,8 @@ const startOver = function () {
   document.querySelector("#name-0").textContent = "Player 1";
   document.querySelector(".player-1-panel").style.backgroundColor = "white";
   document.querySelector(".player-0-panel").style.backgroundColor = "white";
+  rollDice.classList.remove("hidden");
+  hold.classList.remove("hidden");
 };
 //set initial scores to 0
 score0.textContent = 0;
