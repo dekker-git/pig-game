@@ -149,6 +149,8 @@ i {
 }
 
 .btn-new {
+  height: 100px;
+  font-size: 1.5em;
   top: 45px;
 }
 .btn-roll {
